@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Provides shorthand method of loading multiple dependencies with require",
   "main": "main.js",
+  "license": "MIT",
   "scripts": {
     "test": "mocha"
   },
@@ -16,5 +17,9 @@
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vdtdev/slurp-req.git"
   }
 }
