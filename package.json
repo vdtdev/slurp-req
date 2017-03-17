@@ -4,7 +4,7 @@
   "description": "Provides shorthand method of loading multiple dependencies with require",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "node.js",
@@ -12,5 +12,9 @@
     "dependencies"
   ],
   "author": "Wade Harkins <vdtdev@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0"
+  }
 }
